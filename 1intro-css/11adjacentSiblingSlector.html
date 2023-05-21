@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+        h1+p {
+            color: darkturquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling Selector</h1>
+    <p>PIAIC offers the following courses</p>
+    <div>
+        <p>1)Artificial Intellegence</p>
+    </div>
+    <div>
+        <p>2)Blockchain</p>
+    </div>
+    <di>
+        <p>3)Cloud Native Computing</p>
+    </di>
+    <di>
+        <p>4)Internet of Things</p>
+    </di>
+
+    <p>Below is the list of students</p>
+    <table border="2" width="800">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Courses</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>PIAIC001</td>
+            <td>
+                <ol>
+                    <li>
+                        Artificial Intellegence
+                    </li>
+                    <li>
+                        Blockchain
+                    </li>
+                    <li>
+                        Cloud Native Computing
+                    </li>
+                    <li>
+                        Internet of Things
+                    </li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ainee</td>
+            <td>PIAIC002</td>
+            <td>
+                <ol>
+                    <li>Artificial Intellegence</li>
+                    <li>Internet of Things</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Sana</td>
+            <td>PIAIC003</td>
+            <td>
+                <ol>
+                    <li>
+                        <p>Cloud Native Computing</p>
+                    </li>
+                    <li>
+                        <p>Internet of Things</p>
+                    </li>
+                </ol>
+            </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Imran</td>
+                <td>PIAIC004</td>
+                <td>
+                    <ol>
+                        Artificial Intellegence
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Irfan</td>
+                <td>PIAIC005</td>
+                <td>
+                    <ol>
+                        <li>Blockchain</li>
+                        <li>Cloud Native Computing</li>
+                    </ol>
+                </td>
+            </tr>
+    </table>
+</body>
+</html>
